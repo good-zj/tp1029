@@ -95,5 +95,7 @@ class BrandController extends \Think\Controller {
             $this->success($msg, U('index'));
         }
     }
-
+    public function haha(){
+        echo 'wqeqw';
+    }
 }
